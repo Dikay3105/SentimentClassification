@@ -22,7 +22,7 @@ Hoàn toàn tuân thủ yêu cầu thầy cô:
 ---
 
 ### Demo trực tiếp
-https://sentiments-phobert.streamlit.app
+[https://sentiments-phobert.streamlit.app](https://sentimentclassification.streamlit.app/)
 
 ---
 
