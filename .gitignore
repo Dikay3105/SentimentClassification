@@ -1,0 +1,60 @@
+# ----------------------------------------
+# PYTHON
+# ----------------------------------------
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.venv/
+venv/
+env/
+/bin/
+/lib/
+/include/
+
+# Pip installation bundles
+*.egg-info/
+.eggs/
+
+# ----------------------------------------
+# MACHINE LEARNING / HUGGING FACE / PYTORCH
+# ----------------------------------------
+# Thư mục cache mặc định của Hugging Face
+huggingface/
+.cache/
+hf_cache/
+
+# Các file checkpoint/mô hình đã train
+*.pt
+*.pth
+*.safetensors
+checkpoint/
+model/
+
+# ----------------------------------------
+# STREAMLIT & CACHING
+# ----------------------------------------
+# Thư mục cache cục bộ của Streamlit
+.streamlit/
+
+# ----------------------------------------
+# DATABASE (SQLite)
+# ----------------------------------------
+# Database file chính (Tên file có thể khác, ví dụ: sentiment.db)
+*.db
+*.sqlite
+*.sqlite3
+
+# ----------------------------------------
+# OPERATING SYSTEM / IDE
+# ----------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*~
